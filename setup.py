@@ -17,7 +17,7 @@ if __name__ == "__main__":
         author_email="nick@fizzadar.com",
         license="MIT",
         packages=find_packages(),
-        install_requires=("pyinfra>=2,<3",),
+        install_requires=("pyinfra>=2,=<4",),
         extras_require={
             "test": [
                 "pytest",
